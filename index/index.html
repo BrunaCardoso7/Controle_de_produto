@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>controle de produtos</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <main>
+        <div id="conteiner">
+            <div class="conteiner_menu">
+                <h1>produtos</h1>
+                <button id="btn_adicionar">Adicionar produto</button>
+            </div>
+            <div id="conteiner_cadastro">
+                <div class="flex">
+                    <label>nome do produto</label><br>
+                    <br><input type="text" placeholder="produto...">
+                </div>
+                <div class="flex">
+                    <label>quantidade em estoque</label><br>
+                    <input type="number" placeholder="estoque...">
+                </div>
+                <div class="flex">
+                    <label>preço do produto</label><br>
+                    <input type="number" placeholder="preço...">
+                </div>
+                <div class="flex">
+                    <label>quantidade vendido</label><br>
+                    <input type="number" placeholder="vendido..">
+                </div>
+            </div>
+            <div class="conteiner_tabela">
+                <table id="table">
+                    <thead id="linha_tabela">
+                        <th class="cabecalho">produtos</th>
+                        <th class="cabecalho">preço</th>
+                        <th class="cabecalho">estoque</th>
+                        <th class="cabecalho">quantidade vendido</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class= "row" id="produto">filtro tecfil</td>
+                            <td class= "row" id="preco">20,00</td>
+                            <td class= "row" id="estoque">10</td>
+                            <td class= "row" id="quantidade">3</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
